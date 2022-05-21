@@ -1,0 +1,17 @@
+-4 -3
+4 -2
+12 2
+6 5
+-3 3
+-8 1
+import java.util.Scanner;
+
+public class IllegalTriangleException extends Throwable {
+    public static void main(String[] args)throws Exception {
+        Scanner in = new Scanner(System.in);
+        try {
+            int a = in.nextInt(),b = in.nextInt(),c = in.nextInt();
+
+        }catch (IllegalTriangleException e)
+    }
+}
